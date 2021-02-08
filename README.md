@@ -30,4 +30,4 @@ This project is mainly a fun and nerdy way for me to start learning JavaScript a
 [========]
 
 
-:fa-star-o: &laquo;Yes, I know it is quite buggy (for now)... I am still working (and learning!) on it. Please feel free to contribute!&raquo; :fa-star-o:
+&laquo;Yes, I know it is quite buggy (for now)... I am still working (and learning!) on it. Please feel free to contribute!&raquo; 
