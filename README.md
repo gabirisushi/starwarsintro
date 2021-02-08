@@ -13,7 +13,7 @@ This project is mainly a fun and nerdy way for me to start learning JavaScript a
 **[Azure Storage Account](https://azure.microsoft.com/en-us/free/services/storage/)**
 
 **[Account - Azure](https://azure.microsoft.com/en-us/free/)** 
-*obs: if you a student try [azure for students](https://azure.microsoft.com/en-us/free/students/), it is free!*
+*obs: if you are a student try [azure for students](https://azure.microsoft.com/en-us/free/students/), it is free!*
 
 ## Running the Application Locally
 
