@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
+
+body {
+    margin: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+.intro {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    z-index: 1;    
+}
+
+.intro_text {
+    font-family: "News Cycle", sans-serif;
+    color: #00BFFF;
+    font-weight: 400;
+    letter-spacing: .1em;
+}
+
+.history {
+    position: absolute;
+    top: 80%;
+}
+
+.history_text {
+    font-family: "News Cycle", sans-serif;
+    font-weight: 700;
+    color: #FFD700;
+    text-align: justify;
+    letter-spacing: .1em;
+    line-height: 1.1em;
+}
+
+.paraggraphs {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  z-index: 1;
+  transform-origin: 50%;
+  transform: perspective(300px) rotateX(20deg);
+ 
+}
+
+.button {
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+  border: 3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.intro_animation {
+  animation: intro 2s ease-out 0s;
+}
+
+.history_animation {
+  animation: paragrafos 80s linear 2s;
+}
+
+@keyframes intro {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes paraggraphs {
+  0% {
+    top: 75%;
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
+  }
+  100% {
+    top: -200%;
+    opacity: 0;
+  }
+}
+
+/*Stary iconic background*/
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
