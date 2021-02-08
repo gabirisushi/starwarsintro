@@ -1,4 +1,4 @@
-# Star Wars intro using HTML, CSS, JavaScriptand Node.js!
+# Star Wars intro using HTML, CSS, JavaScript and Node.js!
 
 This project is mainly a fun and nerdy way for me to start learning JavaScript and Node.js.
 
